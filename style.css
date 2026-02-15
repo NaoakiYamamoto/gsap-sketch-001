@@ -1,5 +1,12 @@
-gsap.fromTo(
-".word",
-{ opacity: 0 },
-{ opacity: 1, duration: 1.2 }
-);
+body {
+    margin: 0;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background: #fff;
+}
+
+.word {
+    font-size: 48px;
+    letter-spacing: 0.2em;
+}
